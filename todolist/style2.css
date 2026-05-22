@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+    color: #83604a;
+}
+
+body{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("img/fundo.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fundoToDo{
+    height: 38rem;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/fundoTodo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.col{
+    height: 38rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#col1{
+    width: 30rem;
+}
+
+#textos{
+    height: 8rem;
+    width: 28rem;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+}
+
+#textos h2{
+    margin-top: 3rem;
+    padding-bottom: 10px;
+}
