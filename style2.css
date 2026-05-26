@@ -33,26 +33,21 @@ body{
 
 .col{
     height: 38rem;
-    width: 25rem;
+    width: 43rem;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
 }
 
-#col1{
-    width: 22rem;
-    margin-left: 3rem;
-}
 
 #textos{
     height: 8rem;
     width: 23rem;
     display: flex;
     flex-direction: column;
-    margin-left: 2.5rem;
 }
 
-#textos h2{
+#textos h1{
     margin-top: 3rem;
     padding-bottom: 10px;
 }
@@ -69,15 +64,44 @@ body{
     font-size: 35px;
 }
 
+#espacoAdd{
+    width: 38rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border-top: 2px solid #83604a67;
+    border-bottom: 2px solid #83604a67;
+}
+
+#botaoAdd{
+    padding-top: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    background: none;
+}
+
 #listaTarefas{
     width: 20rem;
     height: 25rem;
-    margin-top: 2rem;
 }
 
 .tarefa{
+    width: 35rem;
     font-size: 20px;
     margin: 1rem;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.tarefa:hover{
+    /* background-color: #83604a67; */
+    border-radius: 15px;
+    padding: 0.4rem;
+
 }
 
 .texto-tarefa{
@@ -87,6 +111,16 @@ body{
     background: transparent;
     outline: none;
     font-size: 16px;
+    flex: 1;
+    padding-left: 10px;
+}
+
+.btnApagar{
+     margin-left: auto;
+     border: none;
+     background: none;
+     margin-top: 0.4rem;
+     opacity: 0;
 }
 
 .texto-tarefa::placeholder{
